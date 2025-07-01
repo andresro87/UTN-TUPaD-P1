@@ -152,3 +152,5 @@ digito = int(input("Ingrese el digito que desea ver cuantas veces se repite: "))
 resultado = contar_digito(numero,digito)
 
 print(f"El digito {digito} se repite {resultado} veces dentro del número {numero}")
+
+#
