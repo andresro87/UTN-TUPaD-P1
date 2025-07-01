@@ -70,10 +70,10 @@ print(f"El número {decimal} en binario es {conversor_binario(decimal)}")
 def es_palindromo(palabra):
     if len(palabra) <= 1:
         return True
-    elif palabra[0] != palabra[-1]:
+    elif palabra[0] != palabra[-1]: #la primera y la ultima letra son distintas
         return False
     else:
-        return es_palindromo(palabra[1:-1])
+        return es_palindromo(palabra[1:-1]) #el 1 represnta la segunda letra y el -1 la penultima
 
 palabra = input("Ingrese la palabra que desea analizar: ")
 resultado = es_palindromo(palabra)
